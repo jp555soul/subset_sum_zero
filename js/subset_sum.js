@@ -4,7 +4,9 @@ numbers = [-1, 8, 6, 7, 2, 1, -2, -5];
 
 var result = createSubsets(numbers, 0);
 
-console.log('Result', JSON.stringify(result));
+document.getElementById('results').innerHTML += JSON.stringify(result);
+
+// console.log('Result', JSON.stringify(result));
 
 function createSubsets(numbers, target) {
 
